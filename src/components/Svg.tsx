@@ -2,6 +2,7 @@
 
 import gsap from "gsap";
 // import { useState } from "react";
+//complete one project
 
 const Svg = () => {
   const initialPath = "M 10 100 Q 500 100 990 100";
