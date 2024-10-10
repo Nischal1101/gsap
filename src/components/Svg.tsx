@@ -20,7 +20,7 @@ const Svg = () => {
     // setPath(initialPath);
     gsap.to("svg path", {
       attr: { d: initialPath },
-      duration: 0.8,
+      duration: 1.5,
       ease: "elastic.out(1.0.2)",
     });
   }
