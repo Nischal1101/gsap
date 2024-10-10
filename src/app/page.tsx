@@ -1,9 +1,10 @@
 "use client";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import ScrollTriggerPage from "@/components/ScrollTriggerPage";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+// import Hero from "@/components/Hero";
+// import Navbar from "@/components/Navbar";
+import Pin from "@/components/Pin";
+// import ScrollTriggerPage from "@/components/ScrollTriggerPage";
+// import { useGSAP } from "@gsap/react";
+// import gsap from "gsap";
 
 export default function Home() {
   // const tl = gsap.timeline();
@@ -30,10 +31,11 @@ export default function Home() {
 
   return (
     <>
-      <section className="max-w-3xl p-5 mx-auto ">
+      <section className="w-full  mx-auto ">
         {/* <Navbar/> */}
         {/* <Hero/> */}
-        <ScrollTriggerPage />
+        {/* <ScrollTriggerPage /> */}
+        <Pin />
       </section>
     </>
   );
