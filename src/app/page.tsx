@@ -1,6 +1,7 @@
 "use client";
-import CursorAnimation from "@/components/CursorAnimation";
+import AnimatedCard from "@/components/AnimatedCard";
 /*
+import CursorAnimation from "@/components/CursorAnimation";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Pin from "@/components/Pin";
@@ -41,7 +42,8 @@ export default function Home() {
         {/* <ScrollTriggerPage /> */}
         {/* <Pin /> */}
         {/* <Svg/> */}
-        <CursorAnimation />
+        {/* <CursorAnimation /> */}
+        <AnimatedCard />
       </section>
     </>
   );
