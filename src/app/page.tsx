@@ -1,11 +1,14 @@
 "use client";
-// import Hero from "@/components/Hero";
-// import Navbar from "@/components/Navbar";
+import CursorAnimation from "@/components/CursorAnimation";
+/*
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 import Pin from "@/components/Pin";
 import Svg from "@/components/Svg";
-// import ScrollTriggerPage from "@/components/ScrollTriggerPage";
-// import { useGSAP } from "@gsap/react";
-// import gsap from "gsap";
+import ScrollTriggerPage from "@/components/ScrollTriggerPage";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+*/
 
 export default function Home() {
   // const tl = gsap.timeline();
@@ -37,7 +40,8 @@ export default function Home() {
         {/* <Hero/> */}
         {/* <ScrollTriggerPage /> */}
         {/* <Pin /> */}
-        <Svg/>
+        {/* <Svg/> */}
+        <CursorAnimation />
       </section>
     </>
   );
